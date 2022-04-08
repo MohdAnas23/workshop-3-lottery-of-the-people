@@ -1,0 +1,54 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:ital,wght@0,200;0,300;1,300&family=Trocchi&display=swap'); */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    @font-face {
+        font-family:'Poppins-bold' ;
+        src: url("font/Poppins-Bold.ttf");
+    }
+}
+
+@layer base{
+    @font-face {
+        font-family:'Poppins-bold' ;
+        src: url("font/Poppins-Bold.ttf");
+    }
+}
+@layer base{
+    @font-face {
+        font-family:'Poppins-Regular' ;
+        src: url("font/Poppins-Regular.ttf");
+    }
+} 
+@layer base{
+    @font-face {
+        font-family:'Poppins-Medium' ;
+        src: url("font/Poppins-Medium.ttf");
+    }
+} 
+.heading{
+    @apply text-sm text-black font-pop-semi-bold font-semi-bold uppercase;
+}
+
+.rating-tag{
+    @apply bg-red rounded-[6px] ml-1 p-1 space-x-1 w-[40px] h-[20px];
+}
+
+.step-heading{
+    @apply mb-2 ml-[14px] text-xs text-black font-pop-semi-bold font-semi-bold mt-4
+}
+.grid-btn{
+
+    @apply text-navy-blue rounded-3xl border border-navy-blue  w-[230px] h-[44px] font-semi-bold
+}
+.nav-li{
+    @apply lg:inline-flex lg:w-auto rounded px-3 py-2 text-light-black  text-2xs   font-semi-bold
+}
+.sub-head{
+    @apply text-black text-xs font-semi-bold font-pop-semi-bold 
+}
+.price{
+    @apply text-black text-md font-semi-bold font-pop-semi-bold
+}
